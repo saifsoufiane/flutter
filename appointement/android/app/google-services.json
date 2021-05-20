@@ -1,0 +1,75 @@
+{
+  "project_info": {
+    "project_number": "659484092749",
+    "firebase_url": "https://taxi-9821e.firebaseio.com",
+    "project_id": "taxi-9821e",
+    "storage_bucket": "taxi-9821e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659484092749:android:70677fd4302e391c426f04",
+        "android_client_info": {
+          "package_name": "com.sfs.appointement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659484092749-8tvueu30a9t8crshc2g2rlt6qkhntpam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByJiisFeJ3FKFSDlRB-KBo3q09JR1ULN8"
+        },
+        {
+          "current_key": "AIzaSyCwKNfd39hLvyFMpwLwrFjNDIDq4FYitOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659484092749-8tvueu30a9t8crshc2g2rlt6qkhntpam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659484092749:android:ef4729e5f515a0cc",
+        "android_client_info": {
+          "package_name": "com.sourcey.TaxiChaser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659484092749-8tvueu30a9t8crshc2g2rlt6qkhntpam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByJiisFeJ3FKFSDlRB-KBo3q09JR1ULN8"
+        },
+        {
+          "current_key": "AIzaSyCwKNfd39hLvyFMpwLwrFjNDIDq4FYitOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659484092749-8tvueu30a9t8crshc2g2rlt6qkhntpam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
