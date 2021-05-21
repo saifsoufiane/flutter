@@ -1,4 +1,7 @@
 import 'package:appointement/home_page.dart';
+import 'package:appointement/widget/splash/splash.dart';
+import 'package:appointement/widget/home/home.dart';
+
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -29,9 +32,11 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.cyan,
       ),
-      home: HomePage(),
+      home: MySplash(),
     );
   }
+
+
 }
 
 class MyHomePage extends StatefulWidget {

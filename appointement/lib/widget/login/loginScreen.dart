@@ -61,25 +61,11 @@ class LoginScreen extends StatelessWidget {
                             email: emailController.text,
                             password: passwordController.text)
                         .then((res) {
-                      showDialog(
-                          context: context,
-                          builder: (BuildContext context) {
-                            return AlertDialog(
-                              title: Text("Success"),
-                              content: Text("get user "),
-                              actions: [
-                                TextButton(
-                                  child: Text("Ok"),
-                                  onPressed: () {
-                                    Navigator.of(context).pop();
-                                  },
-                                )
-                              ],
-                            );
-                          });
+                      ScaffoldMessenger.of(context)
+                          .showSnackBar(const SnackBar(content: Text(' logged')));
                       Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => HomeScreen()),
+                        MaterialPageRoute(builder: (context) => HomeScreen(res.user)),
                       );
                     }).catchError((err) {
                       showDialog(
@@ -170,7 +156,7 @@ class LoginScreen extends StatelessWidget {
                 SizedBox(height: 100),
                 Align(
                   alignment: Alignment.bottomCenter,
-                  child: _buildFooterLogo(),
+                //  child: _buildFooterLogo(),
                 )
               ],
             ),
